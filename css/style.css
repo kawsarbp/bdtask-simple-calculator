@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    font-family: roboto;
+}
+#calculator-area{
+    width: 400px;
+    height: auto;
+    /* background: #636e72; */
+    margin: 50px auto;
+}
+#calculator-area #box-area{
+    background: #f1f1f1;
+    width: 362px;
+    margin: auto;
+    padding: 25px 25px;
+    border-radius: 5px !important;
+    box-shadow: 3px 3px 5px #d1cdcd;
+}
+
+#calculator-area .box>label{
+    font-size: 14px;
+}
+#calculator-area .box>input{
+    width: 340px;
+    height: 30px;
+    margin-top: 6px;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: 1px solid gray;
+}
+#calculator-area .calculate{
+    text-transform: capitalize;
+    padding: 5px 14px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
